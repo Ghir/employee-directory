@@ -2,8 +2,12 @@
   font-family: sans-serif;
 }
 
+body {
+  margin: 0;
+}
+
 .wrapper {
-  margin: 50px 25px;
+  padding: 50px 25px;
 }
 
 .title {
@@ -18,8 +22,14 @@
   margin: 10px 0;
   border: 2px #d1d1d1 solid;
   border-radius: 6px;
-  flex-basis: 30%;
+  width: 30%;
   display: flex;
+}
+
+.employees li:hover {
+  opacity: .8;
+  background-color: #f9f9f9;
+  cursor: pointer;
 }
 
 .employees {
@@ -51,5 +61,49 @@ p,
 span {
   margin: 5px 0 5px;
   font-size: .9em;
+}
 
+.thumbnail {
+  width: 90px;
+  height: 90px;
+}
+
+/* OVERLAY */
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  text-align: center;
+}
+
+.lightbox {
+  margin-top: 120px;
+  padding: 20px;
+  width: 310px;
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 6px;
+}
+
+.main-info {
+  border-bottom: solid 1px #878787;;
+  padding: 20px 0;
+}
+
+.email2,
+.city2,
+.details {
+  color: #878787;
+}
+
+.details {
+  padding: 20px 0;
+}
+
+.address,
+.cell {
+  margin-bottom: 10px;
 }
