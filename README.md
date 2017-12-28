@@ -1,1 +1,3 @@
-# JS-Project-5---Use a public API to create an employee directory
+# JS-Project-5---Use-a-public-API-to-create-an-employee-directory
+
+TREEHOUSE TECHDEGREE FULL STACK JAVASCRIPT - PROJECT 5 - USE A PUBLIC API TO CREATE AN EMPLOYEE DIRECTORY
