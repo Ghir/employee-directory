@@ -1,5 +1,5 @@
 * {
-  font-family: sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 body {
@@ -13,6 +13,7 @@ body {
 .title {
   color: #6d6d6d;
   letter-spacing: 1px;
+  display: inline-block;
 }
 
 .employees li {
@@ -22,7 +23,7 @@ body {
   margin: 10px 0;
   border: 2px #d1d1d1 solid;
   border-radius: 6px;
-  width: 30%;
+  width: 400px;
   display: flex;
 }
 
@@ -36,7 +37,7 @@ body {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 img {
@@ -68,6 +69,23 @@ span {
   height: 90px;
 }
 
+.filter {
+  display: inline-block;
+  float: right;
+}
+
+input {
+  height: 20px;
+}
+
+#search,
+#reset {
+  height: 25px;
+}
+
+.username {
+  display: none;
+}
 /* OVERLAY */
 
 .overlay {
@@ -104,6 +122,7 @@ span {
 }
 
 .address,
-.cell {
+.cell,
+.username2 {
   margin-bottom: 10px;
 }
