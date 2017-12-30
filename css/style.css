@@ -1,14 +1,8 @@
-* {
-  font-family: Lato, sans-serif;
-}
+* { font-family: Lato, sans-serif; }
 
-body {
-  margin: 0;
-}
+body { margin: 0; }
 
-.wrapper {
-  padding: 50px 25px;
-}
+.wrapper { padding: 50px 25px; }
 
 .title {
   color: #6d6d6d;
@@ -53,9 +47,7 @@ img {
 
 }
 
-h4 {
-  color: black;
-}
+h4 { color: black; }
 
 h4,
 p,
@@ -74,19 +66,16 @@ span {
   float: right;
 }
 
-input {
-  height: 20px;
-}
+input { height: 20px; }
 
 #search,
 #reset {
   height: 25px;
 }
 
-.username {
-  display: none;
-}
-/* OVERLAY */
+.username { display: none; }
+
+/* MODAL WINDOW */
 
 .overlay {
   position: absolute;
@@ -113,16 +102,23 @@ input {
 
 .email2,
 .city2,
-.details {
-  color: #878787;
-}
+.details { color: #878787; }
 
-.details {
-  padding: 20px 0;
-}
+.details { padding: 20px 0; }
 
 .address,
 .cell,
-.username2 {
-  margin-bottom: 10px;
+.username2 { margin-bottom: 10px; }
+
+#previous,
+#next {
+  height: 25px;
+  width: 25px;
+  -webkit-appearance: none;
+  position: relative;
+  border-radius: 50%;
 }
+
+#previous { float: left; }
+
+#next { float: right; }
