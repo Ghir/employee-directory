@@ -78,6 +78,7 @@ input { height: 20px; }
 /* MODAL WINDOW */
 
 .overlay {
+  display: none;
   position: absolute;
   height: 100%;
   width: 100%;
