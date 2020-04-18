@@ -1,9 +1,9 @@
 ### Employee Directory
 
-The app fetches 12 random “employees" from the Random User Generator API and builds a prototype for an employee directory.
+This was an exercise to learn JQuery. The page shows 12 random employees fetched from the Random User Generator API, clicking on them opens a modal with details.
 
 &nbsp;
 &nbsp;
 &nbsp;
 
-![Screenshot](./employees.png)
+![Screenshot](https://user-images.githubusercontent.com/33903713/79639005-17eafc00-8189-11ea-8d18-92f9344f7f16.png)

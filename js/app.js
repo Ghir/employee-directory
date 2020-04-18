@@ -21,7 +21,9 @@
     $('li:nth-of-type(' + (i + 1) + ') .city').html(capitalizeFirstLetter(data.results[i].location.city));
     $('li:nth-of-type(' + (i + 1) + ') .username').html(data.results[i].login.username);
   });
+
   const $overlay = $('.overlay');
+
   // show modal window on click
   $('li').click(function () {
     $overlay.show();
@@ -47,12 +49,14 @@
     $('.birthday').html('Birthday: ' + data.results[childNumber].dob.date.slice(0, 11));
     $('.username2').html('Username: ' + data.results[childNumber].login.username)
   })
+
   // exit modal window
   $overlay.click((event) => {
     if (event.target.className === 'overlay') {
       $overlay.hide();
     }
   })
+
   // arrow buttons
   $('#next').click(() => {
     $overlay.hide();
@@ -66,6 +70,7 @@
   const $employees = $('li');
   const $message = $('<p>Not found...</p>');
   const $input = $('input');
+
   const search = () => {
     matchedEmployees = [];
     $employees.hide();
