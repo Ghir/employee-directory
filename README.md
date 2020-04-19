@@ -1,4 +1,4 @@
-### Employee Directory
+## Employee Directory
 
 This was an exercise to learn JQuery. The page shows 12 random employees fetched from the Random User Generator API, clicking on them opens a modal with details.
 
